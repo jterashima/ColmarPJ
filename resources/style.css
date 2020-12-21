@@ -1,0 +1,86 @@
+
+/*Navigation bar*/
+#logo_img, .navi {
+    display: inline;
+    vertical-align: middle;
+}
+
+#log_img{
+    margin-left: 24px;
+}
+
+#last_navi{
+    margin-right: 24px;
+}
+
+li{
+    list-style-type: none;
+}
+
+#colmar{
+    font-weight: bold;
+}
+
+#academy{
+    font-weight: 300;
+    color: gray;
+}
+
+p.navi_right{
+    display: inline;
+    float: right;
+    margin-top: 6px;
+    margin-left: 16px;
+}
+
+.navi_left{
+    display:inline;
+    float: left;
+}
+
+/*Main content- Learn something new everyday*/
+.main_content{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    display: flex;
+    align-items: center;
+}
+#first_part{
+    background-color: rgb(216, 203, 203);
+}
+
+.main_images{
+    width: 60%;
+    padding: 32px 24px;
+    margin: 0 0;
+}
+
+#title_first{
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(59, 55, 55);
+}
+
+#first_flexbox{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10%;
+    height: 100%;
+}
+
+#start_here{
+    background-color: rgb(59, 55, 55);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: white;
+}
+
+#content_first{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: rgb(59, 55, 55);
+}
+
