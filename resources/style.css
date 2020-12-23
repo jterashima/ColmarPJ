@@ -1,7 +1,8 @@
-
+*{
+    box-sizing: border-box;
+}
 /*Navigation bar*/
 #logo_img, .navi {
-    display: inline;
     vertical-align: middle;
 }
 
@@ -23,18 +24,16 @@ li{
 
 #academy{
     font-weight: 300;
-    color: gray;
+    color: rgb(80, 80, 80);
 }
 
 p.navi_right{
-    display: inline;
     float: right;
     margin-top: 6px;
     margin-left: 16px;
 }
 
 .navi_left{
-    display:inline;
     float: left;
 }
 
@@ -44,30 +43,46 @@ p.navi_right{
     position: relative;
     top: 0px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 #first_part{
     background-color: rgb(216, 203, 203);
 }
 
 .main_images{
-    width: 60%;
-    padding: 32px 24px;
-    margin: 0 0;
+    max-width: 100%;
+    margin: 32px 24px;
 }
 
-#title_first{
+#first_part{
+    width: 100%;
+    display: flex;
+}
+
+.title_flexbox{
     font-size: 36px;
     font-weight: bold;
-    color: rgb(59, 55, 55);
+    color: rgb(80, 80, 80);
 }
 
-#first_flexbox{
-    display: inline-flex;
+#title_flexbox_first{
+    padding-left: 0px;
+}
+
+#first_flexbox_left{
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    width: 60%;
+    height: auto;
+}
+
+#first_flexbox_right{
+    display:flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
     padding-right: 10%;
-    height: 100%;
+    text-align:start
 }
 
 #start_here{
@@ -76,11 +91,208 @@ p.navi_right{
     padding-bottom: 8px;
     text-align: center;
     color: white;
+    width: 70%;
 }
 
 #content_first{
     padding-top: 10%;
     padding-bottom: 10%;
-    color: rgb(59, 55, 55);
+    color:rgb(80, 80, 80);
 }
 
+/*Main content- It doesn't hurt to keep practicing*/
+
+#second_flexbox{
+    display: flex;
+    width:100%;
+    height: auto;
+}
+
+.flexbox_pics{
+    width: 35%;
+}
+
+#second_right_flexbox{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+    margin-top:32px;
+    margin-bottom: 32px;
+}
+
+#second_left_flexbox{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.title_flexbox{
+    padding-left: 24px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+
+#second_flexbox_content, #second_flexbox_bottom{
+    margin-top:0px;
+    margin-bottom: 32px;
+    padding-left: 24px;
+}
+
+.second_right2_flexbox{
+    display: flex;
+}
+
+.second_right3_flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox_pics{
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+#second_right2_flexbox_content{
+    font-weight: bold;
+    font-size: large;
+}
+
+#second_right3_flexbox{
+    background-color: rgb(216, 203, 203);
+}
+
+#second_right2_flexbox_subcontent{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#second_right2_flexbox_findoutmore{
+    color: lightskyblue;
+}
+
+/*Main content- Third flexbox*/
+#third_part{
+    width:100%;
+}
+
+#start_learning, #this_exhibit{
+    padding-top: 32px;
+    margin: 0px auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(80, 80, 80);
+}
+#third_flexbox{
+    display: flex;
+    flex-direction: column;
+    margin: 32px 72px;
+    width: 100%;
+}
+
+.third_row_flexbox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+#third_left_flexbox, #third_middle_flexbox, #third_right_flexbox{
+    width: 33%;
+    background-color: white;
+    margin-left: 16px;
+}
+
+.third_flexbox_pics{
+    width: 100%;
+}
+
+.third_middle_flexbox{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.third_flexbox_title, .fourth_flexbox4_title{
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+    font-size: 1.5rem;
+    padding-left: 16px;
+}
+
+.courses, .third_flexbox_content, .fourth_flexbox4_content{
+    color: rgb(80, 80, 80);
+    padding-left: 16px;
+}
+
+.courses{
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+
+.third_flexbox_content{
+    padding-bottom: 24px;
+}
+
+#third_part_box{
+    background-color: rgb(201, 194, 194);
+    width: 100%;
+}
+
+/* Main part- Thesis Exhibit */
+#fourth_part_box{
+    background-color: rgb(235, 231, 231);
+}
+#fourth_right_flexbox{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-top:32px;
+    margin-bottom: 32px;
+}
+
+#fourth_left_flexbox{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+#fourth_flexbox_title{
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+    font-size: 1.5rem;
+    padding-left: 24px;
+    padding-bottom: 8px;
+    margin: 0 0;
+}
+
+.fourth_flexbox_pics{
+    width:35%;
+    padding: 16px 16px;
+}
+
+#fourth_flexbox_content{
+    color: rgb(80, 80, 80);
+    padding-left: 24px;
+    padding-right:24px;
+    padding-bottom: 32px;
+}
+
+#fourth_right2_flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth_right3_flexbox{
+    display: flex;
+}
+
+#fourth_right_background{
+    background-color: rgb(216, 203, 203);
+}
+
+video{
+    object-fit: cover;
+}
