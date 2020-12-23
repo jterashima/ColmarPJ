@@ -244,6 +244,11 @@ p.navi_right{
 #fourth_part_box{
     background-color: rgb(235, 231, 231);
 }
+
+#fourth_right{
+    width: 40%;
+}
+
 #fourth_right_flexbox{
     display: flex;
     flex-direction: column;
