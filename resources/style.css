@@ -301,3 +301,26 @@ p.navi_right{
 video{
     object-fit: cover;
 }
+
+/* footer */
+.footer{
+    list-style-type: none;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.footer_left{
+    float:left;
+    margin-left: 24px;
+}
+
+.footer_right{
+    float:right;
+    padding-right: 10px;
+}
+
+ol{
+    width: 100%;
+    padding-left: 0px;
+    padding-bottom: 5%;
+}
