@@ -27,7 +27,7 @@ li{
     color: rgb(80, 80, 80);
 }
 
-p.navi_right{
+p.navi_right, a.navi_right{
     float: right;
     margin-top: 6px;
     margin-left: 16px;
